@@ -1,0 +1,15 @@
+E:\prn-su23\DEMO_PRN_1713\Language\bin\Debug\net6.0\Language.exe
+E:\prn-su23\DEMO_PRN_1713\Language\bin\Debug\net6.0\Language.deps.json
+E:\prn-su23\DEMO_PRN_1713\Language\bin\Debug\net6.0\Language.runtimeconfig.json
+E:\prn-su23\DEMO_PRN_1713\Language\bin\Debug\net6.0\Language.dll
+E:\prn-su23\DEMO_PRN_1713\Language\bin\Debug\net6.0\Language.pdb
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\Language.csproj.AssemblyReference.cache
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\Language.GeneratedMSBuildEditorConfig.editorconfig
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\Language.AssemblyInfoInputs.cache
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\Language.AssemblyInfo.cs
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\Language.csproj.CoreCompileInputs.cache
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\Language.dll
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\refint\Language.dll
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\Language.pdb
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\Language.genruntimeconfig.cache
+E:\prn-su23\DEMO_PRN_1713\Language\obj\Debug\net6.0\ref\Language.dll

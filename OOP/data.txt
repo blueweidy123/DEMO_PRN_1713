@@ -1,0 +1,12 @@
+TO1	Nguyen Van A	6480000	0
+TO2	Nguyen Van B	1000000	1
+
+TO3	Nguyen Van C	2430000	0
+
+TO3	Nguyen Van C	1430000	0
+
+
+
+TO3	Nguyen Van e	2430000	0
+
+TO6	Nguyen Van F	2430000	1

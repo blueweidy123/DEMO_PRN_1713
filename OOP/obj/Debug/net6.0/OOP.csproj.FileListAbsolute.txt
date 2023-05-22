@@ -1,0 +1,15 @@
+E:\prn-su23\DEMO_PRN_1713\OOP\bin\Debug\net6.0\OOP.exe
+E:\prn-su23\DEMO_PRN_1713\OOP\bin\Debug\net6.0\OOP.deps.json
+E:\prn-su23\DEMO_PRN_1713\OOP\bin\Debug\net6.0\OOP.runtimeconfig.json
+E:\prn-su23\DEMO_PRN_1713\OOP\bin\Debug\net6.0\OOP.dll
+E:\prn-su23\DEMO_PRN_1713\OOP\bin\Debug\net6.0\OOP.pdb
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\OOP.csproj.AssemblyReference.cache
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\OOP.AssemblyInfoInputs.cache
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\OOP.AssemblyInfo.cs
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\OOP.csproj.CoreCompileInputs.cache
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\OOP.dll
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\refint\OOP.dll
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\OOP.pdb
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\OOP.genruntimeconfig.cache
+E:\prn-su23\DEMO_PRN_1713\OOP\obj\Debug\net6.0\ref\OOP.dll
