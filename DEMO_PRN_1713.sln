@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Language", "Language\Language.csproj", "{253C82A0-8D91-4DCB-A022-1CFC94E0A233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Language", "Language\Language.csproj", "{253C82A0-8D91-4DCB-A022-1CFC94E0A233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{62C6CB8A-0328-4A5B-A13E-FAB783580E72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP\OOP.csproj", "{62C6CB8A-0328-4A5B-A13E-FAB783580E72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateEvent", "DelegateEvent\DelegateEvent.csproj", "{2552FD23-9168-473C-9DC7-FB9ABB1D467E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateEvent", "DelegateEvent\DelegateEvent.csproj", "{2552FD23-9168-473C-9DC7-FB9ABB1D467E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp", "WinFormsApp\WinFormsApp.csproj", "{DAB1108D-51B0-4AE8-9B97-10020F754C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp", "WinFormsApp\WinFormsApp.csproj", "{DAB1108D-51B0-4AE8-9B97-10020F754C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC", "WebAppMVC\WebAppMVC.csproj", "{E8B35825-F1D9-4BC2-8C23-5685A4FC3470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppMVC", "WebAppMVC\WebAppMVC.csproj", "{E8B35825-F1D9-4BC2-8C23-5685A4FC3470}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDemo", "EventDemo\EventDemo.csproj", "{54321E58-74FE-42F4-AC97-E77A2F0A5EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1", "Assignment1\Assignment1.csproj", "{81A71017-E994-4703-9D45-DE5D22337FD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{E8B35825-F1D9-4BC2-8C23-5685A4FC3470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8B35825-F1D9-4BC2-8C23-5685A4FC3470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8B35825-F1D9-4BC2-8C23-5685A4FC3470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54321E58-74FE-42F4-AC97-E77A2F0A5EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54321E58-74FE-42F4-AC97-E77A2F0A5EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54321E58-74FE-42F4-AC97-E77A2F0A5EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54321E58-74FE-42F4-AC97-E77A2F0A5EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A71017-E994-4703-9D45-DE5D22337FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A71017-E994-4703-9D45-DE5D22337FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A71017-E994-4703-9D45-DE5D22337FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A71017-E994-4703-9D45-DE5D22337FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
