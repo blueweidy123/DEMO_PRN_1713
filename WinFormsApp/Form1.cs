@@ -32,14 +32,31 @@ namespace WinFormsApp
         {
             foreach (Student student in data)
             {
-                lstStudent.Items.Add(student);
-                map.Add(student.Code, student.Name);
+                if (!map.ContainsKey(txtCode.Text))
+                {
+                    lstStudent.Items.Add(student);
+                    map.Add(student.Code, student.Name);
+                }
+                else
+                {
+                    MessageBox.Show(txtCode + " Da ton taoi");
+                    return;
+                }
+                
             }
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-
+            Student s = (Student)lstStudent.SelectedItem;
+            if (s!= null)
+            {
+                if (MessageBox.Show($"Remove student {s.ToString()}?", "Alert", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    map.Remove(s.Code);
+                    lstStudent.Items.Remove(s);
+                }
+            }
         }
 
         Dictionary<string, string> map = new Dictionary<string, string>();
