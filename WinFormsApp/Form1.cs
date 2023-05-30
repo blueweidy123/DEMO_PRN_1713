@@ -7,12 +7,7 @@ namespace WinFormsApp
             InitializeComponent();
         }
 
-        List<Student> data = new List<Student>()
-        {
-            new Student("01", "antt", "Jap", 100),
-            new Student("02", "tta", "En", 10),
-            new Student("03", "AnThach", "Subj", 100),
-        };
+        List<Student> data = new List<Student>();
 
         private void btnExit_Click(object sender, EventArgs e)
         {
@@ -24,44 +19,91 @@ namespace WinFormsApp
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            try
+            {
+                string fileName = "..\\..\\..\\data.txt";
 
+                using (StreamWriter sw = new StreamWriter(fileName))
+                {
+                    foreach (Student s in data)
+                    {
+                            sw.WriteLine(s.ToString());
+                    }
+                }
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show(er.Message);
+            }
         }
 
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            foreach (Student student in data)
+            data.Clear();
+
+            try
             {
-                if (!map.ContainsKey(txtCode.Text))
+                string fileName = "..\\..\\..\\data.txt";
+                using (StreamReader sr = new StreamReader(fileName))
                 {
-                    lstStudent.Items.Add(student);
-                    map.Add(student.Code, student.Name);
+                    string line = sr.ReadLine();
+                    while (line != null)
+                    {
+                        line = line.Trim();
+                        if (!string.IsNullOrEmpty(line))
+                        {
+
+                            string[] s = line.Split("\t");
+                            if (s.Length == 4)
+                            {
+                                string code = s[0];
+                                if (map.ContainsKey(code))
+                                {
+                                    line = sr.ReadLine();
+                                    continue;
+                                }
+                                string name = s[1];
+                                string js = s[2];
+                                int mark = Convert.ToInt32(s[3]);
+                                Student st = new Student(code, name, js, mark);
+                                data.Add(st);
+                                map.Add(st.Code, st.Name);
+                                lstStudent.Items.Add(st);
+                            }
+                        }
+                        line = sr.ReadLine();
+                    }
                 }
-                else
-                {
-                    MessageBox.Show(txtCode + " Da ton taoi");
-                    return;
-                }
-                
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine("Load failded:" + err.Message);
             }
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
             Student s = (Student)lstStudent.SelectedItem;
-            if (s!= null)
+            if (s == null)
             {
-                if (MessageBox.Show($"Remove student {s.ToString()}?", "Alert", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                {
-                    map.Remove(s.Code);
-                    lstStudent.Items.Remove(s);
-                }
+                return;
+            }
+            if (MessageBox.Show($"Remove student {s.ToString()}?", "Alert", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                map.Remove(s.Code);
+                lstStudent.Items.Remove(s);
+                data.Remove(s);
             }
         }
 
         Dictionary<string, string> map = new Dictionary<string, string>();
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if (txtCode.Text.Trim().Equals("") || txtName.Text.Trim().Equals(""))
+            {
+                return;
+            }
             if (map.ContainsKey(txtCode.Text))
             {
                 MessageBox.Show(txtCode+" Da ton taoi");
