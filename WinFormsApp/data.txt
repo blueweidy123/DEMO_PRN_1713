@@ -1,2 +1,4 @@
-01	antt	Jap	100
-02	an	Math	100
+01	an	Math	100
+02	antt	Phy	100
+03	anhaha	En	100
+04	123123	Math	10

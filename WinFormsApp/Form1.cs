@@ -27,7 +27,7 @@ namespace WinFormsApp
                 {
                     foreach (Student s in data)
                     {
-                            sw.WriteLine(s.ToString());
+                        sw.WriteLine(s.ToString());
                     }
                 }
             }
@@ -53,7 +53,6 @@ namespace WinFormsApp
                         line = line.Trim();
                         if (!string.IsNullOrEmpty(line))
                         {
-
                             string[] s = line.Split("\t");
                             if (s.Length == 4)
                             {
@@ -84,16 +83,17 @@ namespace WinFormsApp
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            Student s = (Student)lstStudent.SelectedItem;
+            Student s = ((Student)lstStudent.SelectedItem);
             if (s == null)
             {
                 return;
             }
             if (MessageBox.Show($"Remove student {s.ToString()}?", "Alert", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                map.Remove(s.Code);
+                //lstStudent.Items.Remove(((Student)lstStudent.SelectedItem));
                 lstStudent.Items.Remove(s);
                 data.Remove(s);
+                map.Remove(s.Code);
             }
         }
 
@@ -106,7 +106,7 @@ namespace WinFormsApp
             }
             if (map.ContainsKey(txtCode.Text))
             {
-                MessageBox.Show(txtCode+" Da ton taoi");
+                MessageBox.Show(txtCode + " Da ton taoi");
                 return;
             }
             Student s = new Student()
@@ -121,7 +121,7 @@ namespace WinFormsApp
             map.Add(txtCode.Text, txtName.Text);
             txtCode.Clear();
             txtName.Clear();
-            cboSubject.SelectedIndex= -1;
+            cboSubject.SelectedIndex = -1;
             numMark.Value = 0;
         }
 
@@ -148,6 +148,19 @@ namespace WinFormsApp
         private void FormName_Load(object sender, EventArgs e)
         {
             cboSubject.Items.Add("Japanese");
+        }
+
+        private void txtCode_TextChanged(object sender, EventArgs e)
+        {
+            foreach (Student item in data)
+            {
+                if (item.Code.Equals(txtCode.Text))
+                {
+                    txtName.Text = item.Name;
+                    cboSubject.Text = item.Subject;
+                    numMark.Value = item.Mark;
+                }
+            }
         }
     }
 }
