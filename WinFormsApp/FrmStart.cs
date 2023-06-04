@@ -27,7 +27,7 @@ namespace WinFormsApp
             timer.Start();
         }
 
-        int count = 1;
+        int count = 10;
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (count > 0)
@@ -44,5 +44,6 @@ namespace WinFormsApp
                 this.Hide();
             }
         }
+
     }
 }

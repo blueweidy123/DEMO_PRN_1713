@@ -60,9 +60,11 @@
             Input.Controls.Add(label5);
             Input.Controls.Add(label4);
             Input.Controls.Add(label2);
-            Input.Location = new Point(47, 141);
+            Input.Location = new Point(41, 106);
+            Input.Margin = new Padding(3, 2, 3, 2);
             Input.Name = "Input";
-            Input.Size = new Size(371, 270);
+            Input.Padding = new Padding(3, 2, 3, 2);
+            Input.Size = new Size(325, 202);
             Input.TabIndex = 0;
             Input.TabStop = false;
             Input.Text = "Input";
@@ -70,9 +72,10 @@
             // numMark
             // 
             numMark.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            numMark.Location = new Point(108, 220);
+            numMark.Location = new Point(94, 165);
+            numMark.Margin = new Padding(3, 2, 3, 2);
             numMark.Name = "numMark";
-            numMark.Size = new Size(240, 30);
+            numMark.Size = new Size(210, 26);
             numMark.TabIndex = 9;
             // 
             // cboSubject
@@ -80,17 +83,19 @@
             cboSubject.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             cboSubject.FormattingEnabled = true;
             cboSubject.Items.AddRange(new object[] { "Math", "Physic", "English", "PE" });
-            cboSubject.Location = new Point(108, 158);
+            cboSubject.Location = new Point(94, 118);
+            cboSubject.Margin = new Padding(3, 2, 3, 2);
             cboSubject.Name = "cboSubject";
-            cboSubject.Size = new Size(240, 31);
+            cboSubject.Size = new Size(210, 27);
             cboSubject.TabIndex = 8;
             // 
             // txtName
             // 
             txtName.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            txtName.Location = new Point(108, 98);
+            txtName.Location = new Point(94, 74);
+            txtName.Margin = new Padding(3, 2, 3, 2);
             txtName.Name = "txtName";
-            txtName.Size = new Size(240, 30);
+            txtName.Size = new Size(210, 26);
             txtName.TabIndex = 5;
             txtName.Enter += txtName_Enter;
             txtName.Leave += txtName_Leave;
@@ -98,9 +103,10 @@
             // txtCode
             // 
             txtCode.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            txtCode.Location = new Point(108, 43);
+            txtCode.Location = new Point(94, 32);
+            txtCode.Margin = new Padding(3, 2, 3, 2);
             txtCode.Name = "txtCode";
-            txtCode.Size = new Size(240, 30);
+            txtCode.Size = new Size(210, 26);
             txtCode.TabIndex = 4;
             txtCode.TextChanged += txtCode_TextChanged;
             txtCode.Enter += txtCode_Enter;
@@ -112,9 +118,9 @@
             label6.BackColor = SystemColors.Control;
             label6.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
             label6.ForeColor = Color.Green;
-            label6.Location = new Point(6, 222);
+            label6.Location = new Point(5, 166);
             label6.Name = "label6";
-            label6.Size = new Size(56, 25);
+            label6.Size = new Size(45, 20);
             label6.TabIndex = 3;
             label6.Text = "Mark";
             // 
@@ -124,9 +130,9 @@
             label5.BackColor = SystemColors.Control;
             label5.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = Color.Green;
-            label5.Location = new Point(6, 160);
+            label5.Location = new Point(5, 120);
             label5.Name = "label5";
-            label5.Size = new Size(75, 25);
+            label5.Size = new Size(60, 20);
             label5.TabIndex = 2;
             label5.Text = "Subject";
             // 
@@ -136,9 +142,9 @@
             label4.BackColor = SystemColors.Control;
             label4.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.Green;
-            label4.Location = new Point(6, 103);
+            label4.Location = new Point(5, 77);
             label4.Name = "label4";
-            label4.Size = new Size(62, 25);
+            label4.Size = new Size(51, 20);
             label4.TabIndex = 1;
             label4.Text = "Name";
             // 
@@ -148,18 +154,20 @@
             label2.BackColor = SystemColors.Control;
             label2.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.Green;
-            label2.Location = new Point(6, 42);
+            label2.Location = new Point(5, 32);
             label2.Name = "label2";
-            label2.Size = new Size(55, 25);
+            label2.Size = new Size(44, 20);
             label2.TabIndex = 0;
             label2.Text = "Code";
             // 
             // Output
             // 
             Output.Controls.Add(lstStudent);
-            Output.Location = new Point(560, 141);
+            Output.Location = new Point(490, 106);
+            Output.Margin = new Padding(3, 2, 3, 2);
             Output.Name = "Output";
-            Output.Size = new Size(379, 270);
+            Output.Padding = new Padding(3, 2, 3, 2);
+            Output.Size = new Size(332, 202);
             Output.TabIndex = 1;
             Output.TabStop = false;
             Output.Text = "Output";
@@ -167,19 +175,21 @@
             // lstStudent
             // 
             lstStudent.FormattingEnabled = true;
-            lstStudent.ItemHeight = 20;
-            lstStudent.Location = new Point(21, 26);
+            lstStudent.ItemHeight = 15;
+            lstStudent.Location = new Point(18, 20);
+            lstStudent.Margin = new Padding(3, 2, 3, 2);
             lstStudent.Name = "lstStudent";
-            lstStudent.Size = new Size(338, 224);
+            lstStudent.Size = new Size(296, 169);
             lstStudent.TabIndex = 1;
             // 
             // btnAdd
             // 
             btnAdd.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             btnAdd.ForeColor = Color.Tomato;
-            btnAdd.Location = new Point(442, 202);
+            btnAdd.Location = new Point(387, 152);
+            btnAdd.Margin = new Padding(3, 2, 3, 2);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(94, 29);
+            btnAdd.Size = new Size(82, 22);
             btnAdd.TabIndex = 3;
             btnAdd.Text = ">>";
             btnAdd.UseVisualStyleBackColor = true;
@@ -189,9 +199,10 @@
             // 
             btnRemove.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             btnRemove.ForeColor = Color.Tomato;
-            btnRemove.Location = new Point(442, 237);
+            btnRemove.Location = new Point(387, 178);
+            btnRemove.Margin = new Padding(3, 2, 3, 2);
             btnRemove.Name = "btnRemove";
-            btnRemove.Size = new Size(94, 29);
+            btnRemove.Size = new Size(82, 22);
             btnRemove.TabIndex = 4;
             btnRemove.Text = "<<";
             btnRemove.UseVisualStyleBackColor = true;
@@ -201,9 +212,10 @@
             // 
             btnLoad.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             btnLoad.ForeColor = Color.Tomato;
-            btnLoad.Location = new Point(442, 272);
+            btnLoad.Location = new Point(387, 204);
+            btnLoad.Margin = new Padding(3, 2, 3, 2);
             btnLoad.Name = "btnLoad";
-            btnLoad.Size = new Size(94, 29);
+            btnLoad.Size = new Size(82, 22);
             btnLoad.TabIndex = 5;
             btnLoad.Text = "LOAD";
             btnLoad.UseVisualStyleBackColor = true;
@@ -213,9 +225,10 @@
             // 
             btnSave.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             btnSave.ForeColor = Color.Tomato;
-            btnSave.Location = new Point(442, 307);
+            btnSave.Location = new Point(387, 230);
+            btnSave.Margin = new Padding(3, 2, 3, 2);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(94, 29);
+            btnSave.Size = new Size(82, 22);
             btnSave.TabIndex = 6;
             btnSave.Text = "SAVE";
             btnSave.UseVisualStyleBackColor = true;
@@ -225,9 +238,10 @@
             // 
             btnExit.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             btnExit.ForeColor = Color.Tomato;
-            btnExit.Location = new Point(442, 342);
+            btnExit.Location = new Point(387, 256);
+            btnExit.Margin = new Padding(3, 2, 3, 2);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(94, 29);
+            btnExit.Size = new Size(82, 22);
             btnExit.TabIndex = 7;
             btnExit.Text = "EXIT";
             btnExit.UseVisualStyleBackColor = true;
@@ -238,18 +252,18 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Symbol", 24F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.RoyalBlue;
-            label3.Location = new Point(244, 35);
+            label3.Location = new Point(214, 26);
             label3.Name = "label3";
-            label3.Size = new Size(492, 54);
+            label3.Size = new Size(401, 45);
             label3.TabIndex = 2;
             label3.Text = "STUDENT MANAGEMENT";
             // 
             // FormName
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(987, 452);
+            ClientSize = new Size(864, 339);
             Controls.Add(btnExit);
             Controls.Add(btnSave);
             Controls.Add(btnLoad);
@@ -258,6 +272,7 @@
             Controls.Add(label3);
             Controls.Add(Output);
             Controls.Add(Input);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormName";
             Text = "Student Management";
             Load += FormName_Load;

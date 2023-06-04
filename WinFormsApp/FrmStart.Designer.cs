@@ -38,9 +38,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(346, 337);
+            button1.Location = new Point(303, 253);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(82, 22);
             button1.TabIndex = 0;
             button1.Text = "Start";
             button1.UseVisualStyleBackColor = true;
@@ -50,43 +51,44 @@
             // 
             lblCount.AutoSize = true;
             lblCount.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            lblCount.Location = new Point(329, 47);
+            lblCount.Location = new Point(288, 35);
             lblCount.Name = "lblCount";
-            lblCount.Size = new Size(137, 106);
+            lblCount.Size = new Size(111, 86);
             lblCount.TabIndex = 1;
             lblCount.Text = "10";
             lblCount.Click += label1_Click;
             // 
             // timer
             // 
-            timer.Interval = 1000;
             timer.Tick += timer1_Tick;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(294, 243);
+            label1.Location = new Point(257, 182);
             label1.Name = "label1";
-            label1.Size = new Size(87, 20);
+            label1.Size = new Size(69, 15);
             label1.TabIndex = 2;
             label1.Text = "Enter Name";
             // 
             // txtName
             // 
-            txtName.Location = new Point(401, 240);
+            txtName.Location = new Point(351, 180);
+            txtName.Margin = new Padding(3, 2, 3, 2);
             txtName.Name = "txtName";
-            txtName.Size = new Size(125, 27);
+            txtName.Size = new Size(110, 23);
             txtName.TabIndex = 3;
             // 
             // FrmStart
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(txtName);
             Controls.Add(label1);
             Controls.Add(lblCount);
             Controls.Add(button1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FrmStart";
             Text = "FrmStart";
             ResumeLayout(false);

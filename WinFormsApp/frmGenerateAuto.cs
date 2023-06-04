@@ -41,27 +41,58 @@ namespace WinFormsApp
                 Label lbl = new Label();
                 lbl.Text = $"Enter text: {i + 1}";
                 lbl.Size = new Size(50, 200);
-                lbl.Location = new Point(50, 84 + i * 30);
+                lbl.Location = new Point(12, 25 + i * 25);
                 lbl.AutoSize = true;
-                this.Controls.Add(lbl);
+                gb1.Controls.Add(lbl);
 
                 TextBox txt = new TextBox();
                 txt.Text = "0";
-                txt.Size = new Size(50, 200);
-                txt.Location = new Point(250, 84 + i * 30);
-                this.Controls.Add(txt);
-
+                txt.Size = new Size(200, 200);
+                txt.Location = new Point(100, 25 + i * 25);
+                txt.AutoSize = true;
+                gb1.Controls.Add(txt);
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            output.Controls.Clear();
+            int i = 0;
+            foreach (Control control in gb1.Controls)
+            {
+                if (control is TextBox textBox)
+                {
+                    Label label = new Label();
+                    label.Text = textBox.Text;
+                    label.AutoSize = true;
 
+
+                    CheckBox cb = new CheckBox();
+                    cb.AutoSize = true;
+                    cb.Location = new Point(6, 22 + i++ * 25);
+                    cb.Size = new Size(83, 19);
+                    cb.Text = textBox.Text;
+                    cb.UseVisualStyleBackColor = true;
+
+                    output.Controls.Add(cb);
+                }
+            }
         }
 
-        private void numText_ValueChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            string concat = "student checked: ";
+            foreach (Control control in output.Controls)
+            {
+                if (control is CheckBox cb)
+                {
+                    if (cb.Checked)
+                    {
+                        concat += cb.Text + "/";
+                    }
+                }
+            }
+            MessageBox.Show(concat);
         }
     }
 }
