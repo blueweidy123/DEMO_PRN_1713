@@ -1,0 +1,17 @@
+E:\prn-su23\DEMO_PRN_1713\AS2\bin\Debug\net6.0-windows\AS2.exe
+E:\prn-su23\DEMO_PRN_1713\AS2\bin\Debug\net6.0-windows\AS2.deps.json
+E:\prn-su23\DEMO_PRN_1713\AS2\bin\Debug\net6.0-windows\AS2.runtimeconfig.json
+E:\prn-su23\DEMO_PRN_1713\AS2\bin\Debug\net6.0-windows\AS2.dll
+E:\prn-su23\DEMO_PRN_1713\AS2\bin\Debug\net6.0-windows\AS2.pdb
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.csproj.AssemblyReference.cache
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.DentalPayment.resources
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.csproj.GenerateResource.cache
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.GeneratedMSBuildEditorConfig.editorconfig
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.AssemblyInfoInputs.cache
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.AssemblyInfo.cs
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.csproj.CoreCompileInputs.cache
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.dll
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\refint\AS2.dll
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.pdb
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\AS2.genruntimeconfig.cache
+E:\prn-su23\DEMO_PRN_1713\AS2\obj\Debug\net6.0-windows\ref\AS2.dll

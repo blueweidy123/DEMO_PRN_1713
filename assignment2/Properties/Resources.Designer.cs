@@ -139,6 +139,11 @@ namespace assignment2.Properties {
         ///    &lt;resheader name=&quot;resmimetype&quot;&gt;text/microsoft-resx&lt;/resheader&gt;
         ///    &lt;resheader n [rest of string was truncated]&quot;;.
         /// </summary>
+        internal static string Resources {
+            get {
+                return ResourceManager.GetString("Resources", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
