@@ -47,6 +47,7 @@
             btnReset = new Button();
             btnExit = new Button();
             cbCate = new ComboBox();
+            btnSearch = new Button();
             ((System.ComponentModel.ISupportInitialize)dgProduct).BeginInit();
             SuspendLayout();
             // 
@@ -161,48 +162,53 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(144, 215);
+            btnAdd.Location = new Point(104, 215);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(94, 29);
             btnAdd.TabIndex = 14;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(244, 215);
+            btnUpdate.Location = new Point(204, 215);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(94, 29);
             btnUpdate.TabIndex = 15;
             btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(344, 215);
+            btnDelete.Location = new Point(304, 215);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(94, 29);
             btnDelete.TabIndex = 16;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnReset
             // 
-            btnReset.Location = new Point(444, 215);
+            btnReset.Location = new Point(404, 215);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(94, 29);
             btnReset.TabIndex = 17;
             btnReset.Text = "Reset";
             btnReset.UseVisualStyleBackColor = true;
+            btnReset.Click += btnReset_Click;
             // 
             // btnExit
             // 
-            btnExit.Location = new Point(548, 215);
+            btnExit.Location = new Point(508, 215);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(94, 29);
             btnExit.TabIndex = 18;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // cbCate
             // 
@@ -212,11 +218,22 @@
             cbCate.Size = new Size(260, 28);
             cbCate.TabIndex = 19;
             // 
+            // btnSearch
+            // 
+            btnSearch.Location = new Point(608, 215);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(94, 29);
+            btnSearch.TabIndex = 20;
+            btnSearch.Text = "Search";
+            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnSearch);
             Controls.Add(cbCate);
             Controls.Add(btnExit);
             Controls.Add(btnReset);
@@ -265,5 +282,6 @@
         private Button btnReset;
         private Button btnExit;
         private ComboBox cbCate;
+        private Button btnSearch;
     }
 }
