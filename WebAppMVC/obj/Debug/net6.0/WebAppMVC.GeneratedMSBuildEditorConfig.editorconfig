@@ -9,9 +9,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAppMVC
 build_property.RootNamespace = WebAppMVC
-build_property.ProjectDir = E:\prn-su23\DEMO_PRN_1713\WebAppMVC\
+build_property.ProjectDir = E:\prn_su23\DEMO_PRN_1713\WebAppMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\prn-su23\DEMO_PRN_1713\WebAppMVC
+build_property.MSBuildProjectDirectory = E:\prn_su23\DEMO_PRN_1713\WebAppMVC
 build_property._RazorSourceGeneratorDebug = 
+
+[E:/prn_su23/DEMO_PRN_1713/WebAppMVC/Views/Student/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/prn_su23/DEMO_PRN_1713/WebAppMVC/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/prn_su23/DEMO_PRN_1713/WebAppMVC/Views/Student/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

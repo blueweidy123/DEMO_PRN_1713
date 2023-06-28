@@ -1,0 +1,26 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@using WebAppMVC.Models
+@model Student
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+    //dau nay dung de comment
+*@
+@{
+    //chua code c#
+    string message = "he lo web mvc";
+    
+}
+
+List Students:
+
+@*@message*@
+<br />
+Code: @Model.Code
+<br />
+Name: @Model.Name
+<br />
+Age: @Model.Age
+<br/>
+
+<a asp-controller="Student" asp-action="Show">Continue</a>
+

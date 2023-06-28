@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\prn-su23\\DEMO_PRN_1713\\DelegateEvent\\DelegateEvent.csproj",
+      "projectUniqueName": "E:\\prn_su23\\DEMO_PRN_1713\\DelegateEvent\\DelegateEvent.csproj",
       "projectName": "DelegateEvent",
-      "projectPath": "E:\\prn-su23\\DEMO_PRN_1713\\DelegateEvent\\DelegateEvent.csproj",
+      "projectPath": "E:\\prn_su23\\DEMO_PRN_1713\\DelegateEvent\\DelegateEvent.csproj",
       "packagesPath": "C:\\Users\\anlal\\.nuget\\packages\\",
-      "outputPath": "E:\\prn-su23\\DEMO_PRN_1713\\DelegateEvent\\obj\\",
+      "outputPath": "E:\\prn_su23\\DEMO_PRN_1713\\DelegateEvent\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

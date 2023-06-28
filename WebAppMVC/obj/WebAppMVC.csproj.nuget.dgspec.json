@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\prn-su23\\DEMO_PRN_1713\\WebAppMVC\\WebAppMVC.csproj": {}
+    "E:\\prn_su23\\DEMO_PRN_1713\\WebAppMVC\\WebAppMVC.csproj": {}
   },
   "projects": {
-    "E:\\prn-su23\\DEMO_PRN_1713\\WebAppMVC\\WebAppMVC.csproj": {
+    "E:\\prn_su23\\DEMO_PRN_1713\\WebAppMVC\\WebAppMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\prn-su23\\DEMO_PRN_1713\\WebAppMVC\\WebAppMVC.csproj",
+        "projectUniqueName": "E:\\prn_su23\\DEMO_PRN_1713\\WebAppMVC\\WebAppMVC.csproj",
         "projectName": "WebAppMVC",
-        "projectPath": "E:\\prn-su23\\DEMO_PRN_1713\\WebAppMVC\\WebAppMVC.csproj",
+        "projectPath": "E:\\prn_su23\\DEMO_PRN_1713\\WebAppMVC\\WebAppMVC.csproj",
         "packagesPath": "C:\\Users\\anlal\\.nuget\\packages\\",
-        "outputPath": "E:\\prn-su23\\DEMO_PRN_1713\\WebAppMVC\\obj\\",
+        "outputPath": "E:\\prn_su23\\DEMO_PRN_1713\\WebAppMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

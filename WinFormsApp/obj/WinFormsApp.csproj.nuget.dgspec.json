@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\prn-su23\\DEMO_PRN_1713\\WinFormsApp\\WinFormsApp.csproj": {}
+    "E:\\prn_su23\\DEMO_PRN_1713\\WinFormsApp\\WinFormsApp.csproj": {}
   },
   "projects": {
-    "E:\\prn-su23\\DEMO_PRN_1713\\WinFormsApp\\WinFormsApp.csproj": {
+    "E:\\prn_su23\\DEMO_PRN_1713\\WinFormsApp\\WinFormsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\prn-su23\\DEMO_PRN_1713\\WinFormsApp\\WinFormsApp.csproj",
+        "projectUniqueName": "E:\\prn_su23\\DEMO_PRN_1713\\WinFormsApp\\WinFormsApp.csproj",
         "projectName": "WinFormsApp",
-        "projectPath": "E:\\prn-su23\\DEMO_PRN_1713\\WinFormsApp\\WinFormsApp.csproj",
+        "projectPath": "E:\\prn_su23\\DEMO_PRN_1713\\WinFormsApp\\WinFormsApp.csproj",
         "packagesPath": "C:\\Users\\anlal\\.nuget\\packages\\",
-        "outputPath": "E:\\prn-su23\\DEMO_PRN_1713\\WinFormsApp\\obj\\",
+        "outputPath": "E:\\prn_su23\\DEMO_PRN_1713\\WinFormsApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
