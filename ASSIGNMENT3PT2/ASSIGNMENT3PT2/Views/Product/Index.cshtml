@@ -1,0 +1,115 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@using ASSIGNMENT3PT2.Models
+@model List<Product>
+
+<form asp-controller="Product" asp-action="Index" id="selectCode" method="post">
+<table>
+    <tr>
+        <td><label>Product Code</label></td>
+        <td>
+                <select onchange="change()" name="productCode">
+                    <option value="all">Select</option>
+                    @foreach (string code in ViewBag.pCode)
+                    {
+                        @if (code.Equals(ViewBag.SelectedCode))
+                        {
+                            <option selected value=@code>@code</option>
+                        }
+                        else
+                        {
+                            <option value=@code>@code</option>
+                        }
+                    }
+                </select>
+        </td>
+    </tr>
+        <tr>
+            <td>
+                <label>Product Name</label>
+            </td>
+            <td>
+                <input type="text" value="@ViewBag.SelectedProduct?.ProductName" name="newName" />
+            </td>
+            <td>
+                <button type="submit" value="filName" name="action">filter by name</button>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Unit</label>
+            </td>
+            <td>
+                <input type="text" value="@ViewBag.SelectedProduct?.Unit" name="newU" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Price</label>
+            </td>
+            
+            <td>
+                Old<input type="text" value="@ViewBag.SelectedProduct?.Price" name="oldPrice" />
+                -> New <input type="text" name="newPrice" value="" />
+            </td>
+            </td>
+            <td>
+                <button type="submit" value="filPrice" name="action">filter by Price</button>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Image</label>
+            </td>
+            <td>
+                <input type="text" value="@ViewBag.SelectedProduct?.Image" name="newImage" />
+            </td>
+            <td>
+                <button type="submit" value="filImg" name="action">filter by Image</button>
+
+                </td>
+        </tr>
+    <tr>
+        <td></td>
+        <td>
+                <button type="submit" value="update" name="action">Update</button>
+                <button>Reset</button>
+        </td>
+    </tr>
+</table>
+
+</form>
+
+<script>
+    function change() {
+        document.getElementById("selectCode").submit();
+    }
+</script>
+
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Price</td>
+        <td>Stock</td>
+        <td>Image</td>
+    </tr>
+    @foreach (Product p in Model)
+    {
+        <tr>
+            <td>@p.ProductCode</td>
+            <td>@p.ProductName</td>
+            <td>@p.Unit</td>
+            <td>@p.Price</td>
+            <td>@p.Image</td>
+        </tr>
+    }
+</table>
+
